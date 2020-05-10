@@ -15,11 +15,9 @@
         </div>
         <div class="col-md-12">
             <div class="col-md-10 card-block">
-                <a href="{{url('/standard')}}">
-                        Standard Search
-                </a> 
-                <a href="{{url('/custom')}}">
-                        Custom Search
+                CUSTOM
+                <a href="{{url('/welcome')}}">
+                        Back
                 </a>      
             </div>
         </div>

@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/welcome', 'HomeController@welcome')->name('welcome');
+Route::get('/standard', 'HomeController@standard')->name('standard');
+Route::get('/custom', 'HomeController@custom')->name('custom');
