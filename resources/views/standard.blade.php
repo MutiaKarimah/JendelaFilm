@@ -21,6 +21,12 @@
                 </a>     
             </div>
         </div>
+        <div class="col-md-12">
+            <form action="{{url(/standard)}}" method="post">
+                <input type="text" name="search" paleceholder="isi sidini">
+                <input type="submit" value=">>">
+            </form>
+        </div>
     </div>
 </div>
 

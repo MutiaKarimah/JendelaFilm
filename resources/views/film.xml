@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:ab="http://learningsparql.com/ns/addressbook#"
+   xmlns:d="http://learningsparql.com/ns/data#">
+
+   <rdf:Description rdf:about="http://learningsparql.com/ns/data#i0432">
+    <ab:firstName>Richard</ab:firstName>
+    <ab:lastName>Mutt</ab:lastName>
+    <ab:homeTel>(229) 276-5135</ab:homeTel>
+    <ab:nick>Rich</ab:nick>
+    <ab:email>richard49@hotmail.com</ab:email>
+   </rdf:Description>
+
+   <rdf:Description rdf:about="http://learningsparql.com/ns/data#i9771">
+    <ab:firstName>Cindy</ab:firstName>
+    <ab:lastName>Marshall</ab:lastName>
+    <ab:homeTel>(245) 646-5488</ab:homeTel>
+    <ab:email>cindym@gmail.com</ab:email>
+   </rdf:Description>
+
+   <rdf:Description rdf:about="http://learningsparql.com/ns/data#i8301">
+    <ab:firstName>Craig</ab:firstName>
+    <ab:lastName>Ellis</ab:lastName>
+    <ab:workTel>(245) 315-5486</ab:workTel>
+    <ab:email>craigellis2yahoo.com</ab:email>
+    <ab:email>c.ellis@usairwaysgroup.com</ab:email>
+   </rdf:Description>
+
+</rdf:RDF>
