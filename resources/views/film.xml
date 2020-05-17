@@ -1,30 +1,27 @@
 <?xml version="1.0"?>
 <rdf:RDF
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:ab="http://learningsparql.com/ns/addressbook#"
-   xmlns:d="http://learningsparql.com/ns/data#">
-
-   <rdf:Description rdf:about="http://learningsparql.com/ns/data#i0432">
-    <ab:firstName>Richard</ab:firstName>
-    <ab:lastName>Mutt</ab:lastName>
-    <ab:homeTel>(229) 276-5135</ab:homeTel>
-    <ab:nick>Rich</ab:nick>
-    <ab:email>richard49@hotmail.com</ab:email>
-   </rdf:Description>
-
-   <rdf:Description rdf:about="http://learningsparql.com/ns/data#i9771">
-    <ab:firstName>Cindy</ab:firstName>
-    <ab:lastName>Marshall</ab:lastName>
-    <ab:homeTel>(245) 646-5488</ab:homeTel>
-    <ab:email>cindym@gmail.com</ab:email>
-   </rdf:Description>
-
-   <rdf:Description rdf:about="http://learningsparql.com/ns/data#i8301">
-    <ab:firstName>Craig</ab:firstName>
-    <ab:lastName>Ellis</ab:lastName>
-    <ab:workTel>(245) 315-5486</ab:workTel>
-    <ab:email>craigellis2yahoo.com</ab:email>
-    <ab:email>c.ellis@usairwaysgroup.com</ab:email>
-   </rdf:Description>
-
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:id="http://learningsparql.com/ns/idfilm#"
+    xmlns:dk="http://learningsparql.com/ns/deskripsi#" > 
+  <rdf:Description rdf:about="http://learningsparql.com/ns/idfilm#C001">
+    <dk:sinopsis>Dika adalah seorang penulis yang baru saja putus cinta  dengan Nina, pacarnya setelah sekian lama. Semenjak putus cinta ini, dia percaya bahwa cinta bisa kadaluarsa. Kosasih, agen naskah Dika,  mencoba untuk membuat Dika yakin terhadap cinta kembali, seperti Kosasih yakin  dengan istrinya Wanda. Usaha ini membawa Dika ke dalam serangkaian perkenalan absurd. Namun , cinta bisa datang tanpa persiapan. Seperti saat Dika bertemu dengan Jessica, seorang perempuan yang jalan pikirannya sama anehnya dengan Dika. Semakin Dika kenal dengan Jessica, semakin dia bertanya: apa benar cinta bisa kadaluarsa?</dk:sinopsis>
+    <dk:rating>9/10</dk:rating>
+    <dk:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</dk:tahun>
+    <dk:genre>comedy, romance</dk:genre>
+    <dk:judul>Cinta Brontosaurus</dk:judul>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://learningsparql.com/ns/idfilm#A001">
+    <dk:sinopsis>Cinta yang sekarang telah menjadi pemilik sebuah Kafe Seni Pop Mini di Jakarta. Dia dan geng SMA menghibur Karmen, yang baru pulih dari kecanduan narkoba.Milly menikah dengan mantan teman sekolahnya,Mamet dan saat ini tengah mengandung anak pertama mereka, sementara Maura menikah dengan Chris dengan 4 anak. Cinta mengumumkan bahwa ia akan pergi berlibur ke Yogyakarta dan bahwa dia bertunangan dengan pacarnya Trian. Sementara itu, di New York City, Rangga adalah co-owner sebuah kedai kopi. Saat saudara tirinya, Sukma, berkunjung untuk meminta dia untuk mengunjungi ibunya di Jogjakarta, tetapi dia menolak. Dia akhirnya berubah pikiran dan memutuskan untuk pergi ke sana setelah rekan pemilik dan temannya, Roberto meyakinkan dia bahwa dia harus pulang ke Indonesia untuk menyelesaikan sesuatu yang perlu untuk diselesaikan.</dk:sinopsis>
+    <dk:rating>8.9/10</dk:rating>
+    <dk:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</dk:tahun>
+    <dk:genre>Romance</dk:genre>
+    <dk:Judul>Ada Apa Dengan Cinta 2</dk:Judul>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://learningsparql.com/ns/idfilm#B001">
+    <dk:sinopsis>Tim, bocah 7 tahun, iri saat orangtuanya lebih perhatian pada adiknya. Ia segera sadar ternyata adik bayinya bisa berbicara. Keduanya pun bekerjasama untuk menggagalkan rencana jahat CEO Puppy Co.</dk:sinopsis>
+    <dk:rating>8.7/10</dk:rating>
+    <dk:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</dk:tahun>
+    <dk:genre>Family, Fantasy, Comedy</dk:genre>
+    <dk:judul>Boss Baby</dk:judul>
+  </rdf:Description>
 </rdf:RDF>
