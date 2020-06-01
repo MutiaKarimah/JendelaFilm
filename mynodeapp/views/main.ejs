@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include head %>
+    <style type="text/css">
+      #content{
+        margin : 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <% include header %>
+    </header>
+    <h1>JENDELA FILM</h1>
+    <div id= "content">
+      <table class="table table-striped table-primary">
+          <thead>
+            <tr>
+              <th>Judul</th>
+              <th>Genre</th>
+              <th>Tahun</th>
+              <th>Rating</th>
+              <th>Sinopsis</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% value.forEach( ploop => { %>
+            <tr>
+              <td><%= ploop.judul.value %></td>
+              <td><%= ploop.genre.value %></td>
+              <td><%= ploop.tahun.value %></td>
+              <td><%= ploop.rating.value %></td>
+              <td><%= ploop.sinopsis.value %></td>
+            </tr>
+            <% })
+            %>
+          </tbody>
+        </table>
+      </div>
+      <footer><% include footer %></footer>
+  </body>
+</html>
+
