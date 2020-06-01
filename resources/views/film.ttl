@@ -1,0 +1,80 @@
+@prefix dk: <http://learningsparql.com/ns/deskripsi#> .
+@prefix id:  <http://learningsparql.com/ns/idfilm#> .
+ 	
+id:A001    	dk:judul "Ada Apa Dengan Cinta 2" ;
+    		dk:genre "romance";
+    		dk:tahun "2016" ;
+    		dk:rating "8.9/10";
+    		dk:sinopsis "Cinta yang sekarang telah menjadi pemilik sebuah Kafe Seni Pop Mini di Jakarta. Dia dan geng SMA menghibur Karmen, yang baru pulih dari kecanduan narkoba. Milly menikah dengan mantan teman sekolahnya, Mamet dan saat ini tengah mengandung anak pertama mereka, sementara Maura menikah dengan Chris dengan 4 anak. Cinta mengumumkan bahwa ia akan pergi berlibur ke Yogyakarta dan bahwa dia bertunangan dengan pacarnya Trian. Sementara itu, di New York City, Rangga adalah co-owner sebuah kedai kopi. Saat saudara tirinya, Sukma, berkunjung untuk meminta dia untuk mengunjungi ibunya di Jogjakarta, tetapi dia menolak. Dia akhirnya berubah pikiran dan memutuskan untuk pergi ke sana setelah rekan pemilik dan temannya, Roberto meyakinkan dia bahwa dia harus pulang ke Indonesia untuk menyelesaikan sesuatu yang perlu untuk diselesaikan.". 
+ 	
+id:B001    	dk:judul "Boss Baby" ;
+    		dk:genre "family, fantasy, comedy";
+    		dk:tahun "2017" ;
+    		dk:rating "8.7/10";
+    		dk:sinopsis "Tim, bocah 7 tahun, iri saat orangtuanya lebih perhatian pada adiknya. Ia segera sadar ternyata adik bayinya bisa berbicara. Keduanya pun bekerjasama untuk menggagalkan rencana jahat CEO Puppy Co.". 
+ 	
+id:C001    	dk:judul "Cinta Brontosaurus" ;
+    		dk:genre "comedy, romance";
+    		dk:tahun "2013" ;
+    		dk:rating "9/10";
+    		dk:sinopsis "Dika adalah seorang penulis yang baru saja putus cinta  dengan Nina, pacarnya setelah sekian lama. Semenjak putus cinta ini, dia percaya bahwa cinta bisa kadaluarsa. Kosasih, agen naskah Dika, mencoba untuk membuat Dika yakin terhadap cinta kembali, seperti Kosasih yakin dengan istrinya Wanda. Usaha ini membawa Dika ke dalam serangkaian perkenalan absurd. Namun , cinta bisa datang tanpa persiapan. Seperti saat Dika bertemu dengan Jessica, seorang perempuan yang jalan pikirannya sama anehnya dengan Dika. Semakin Dika kenal dengan Jessica, semakin dia bertanya: apa benar cinta bisa kadaluarsa?".
+
+id:D001    	dk:judul "500 Days of Summer" ;
+    		dk:genre "comedy, romance, drama";
+    		dk:tahun "2009" ;
+    		dk:rating "7.7/10";
+    		dk:sinopsis "Komedi romantis offbeat tentang seorang wanita yang tidak percaya cinta sejati ada, dan pria muda yang jatuh cinta padanya.".
+
+id:E001    	dk:judul "Big Fish" ;
+    		dk:genre "adventure, drama, fantasy";
+    		dk:tahun "2003" ;
+    		dk:rating "8/10";
+    		dk:sinopsis "Seorang anak yang frustrasi berusaha menentukan fakta dari fiksi dalam kehidupan ayahnya yang sekarat.".
+
+id:F001    	dk:judul "Everybody's Fine" ;
+    		dk:genre "drama";
+    		dk:tahun "2009" ;
+    		dk:rating "7.1/10";
+    		dk:sinopsis "Seorang duda yang menyadari hubungan satu-satunya dengan keluarganya adalah melalui istrinya yang melakukan perjalanan dadakan untuk bersatu kembali dengan masing-masing anak-anaknya yang sudah dewasa.".
+
+id:G001    	dk:judul "About Time" ;
+    		dk:genre "comedy, drama, fantasy";
+    		dk:tahun "2013" ;
+    		dk:rating "7.8/10";
+    		dk:sinopsis "Pada usia 21, Tim menemukan bahwa ia dapat melakukan perjalanan tepat waktu dan mengubah apa yang terjadi dan telah terjadi dalam hidupnya sendiri. Keputusannya untuk menjadikan dunianya menjadi tempat yang lebih baik dengan mendapatkan pacar ternyata tidak semudah yang Anda kira.".
+
+id:H001    	dk:judul "Submarine" ;
+    		dk:genre "comedy, drama, romance";
+    		dk:tahun "2010" ;
+    		dk:rating "7.3/10";
+    		dk:sinopsis "Oliver Tate yang berusia 15 tahun memiliki dua tujuan: Kehilangan keperawanannya sebelum ulang tahun berikutnya, dan untuk memadamkan api antara ibunya dan mantan kekasih yang telah muncul kembali dalam hidupnya.".
+
+id:I001    	dk:judul "Gone Girl" ;
+    		dk:genre "mystery, drama, thriller";
+    		dk:tahun "2014" ;
+    		dk:rating "8.1/10";
+    		dk:sinopsis "Dengan menghilangnya istrinya yang menjadi fokus sirkus media yang intens, seorang pria melihat sorotan menyala padanya ketika diduga bahwa dia mungkin tidak bersalah.".
+
+id:J001    	dk:judul "Little Miss Sunshine" ;
+    		dk:genre "comedy, drama";
+    		dk:tahun "2006" ;
+    		dk:rating "7.8/10";
+    		dk:sinopsis "Sebuah keluarga yang bertekad untuk membawa putri kecil mereka ke putaran final kontes kecantikan melakukan perjalanan lintas negara dengan bus VW mereka.".
+
+id:K001    	dk:judul "Her" ;
+    		dk:genre "romance, drama, sci-fi";
+    		dk:tahun "2013" ;
+    		dk:rating "8/10";
+    		dk:sinopsis "Dalam waktu dekat, seorang penulis yang kesepian mengembangkan hubungan yang tidak mungkin dengan sistem operasi yang dirancang untuk memenuhi setiap kebutuhannya.".
+
+id:L001    	dk:judul "Mr. Nobody" ;
+    		dk:genre "comedy, drama, fantasy";
+    		dk:tahun "2009" ;
+    		dk:rating "7.8/10";
+    		dk:sinopsis "Seorang anak laki-laki berdiri di peron stasiun saat kereta hendak pergi. Haruskah dia pergi dengan ibunya atau tinggal bersama ayahnya? Kemungkinan tak terbatas muncul dari keputusan ini. Selama dia tidak memilih, segalanya mungkin terjadi.".
+
+id:M001    	dk:judul "Catch Me If You Can" ;
+    		dk:genre "biography, drama, crime";
+    		dk:tahun "2002" ;
+    		dk:rating "8.1/10";
+    		dk:sinopsis "Seorang agen FBI berpengalaman mengejar Frank Abagnale Jr yang, sebelum ulang tahunnya yang ke-19, berhasil memalsukan cek bernilai jutaan dolar sambil menyamar sebagai pilot Pan Am, seorang dokter, dan seorang jaksa penuntut.".

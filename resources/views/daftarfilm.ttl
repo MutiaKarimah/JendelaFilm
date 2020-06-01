@@ -1,0 +1,23 @@
+@prefix dk: <http://learningsparql.com/ns/deskripsi#> .
+@prefix d:  <http://learningsparql.com/ns/idfilm#> .
+
+id:A001 	
+    dk:Judul 	    "Ada Apa Dengan Cinta 2" ;
+    dk:genre          "Romance";
+    dk:tahun  	      2016 ;
+    dk:rating   	    "8.9/10";
+    dk:sinopsis      "Cinta yang sekarang telah menjadi pemilik sebuah Kafe Seni Pop Mini di Jakarta. Dia dan geng SMA menghibur Karmen, yang baru pulih dari kecanduan narkoba. Milly menikah dengan mantan teman sekolahnya, Mamet dan saat ini tengah mengandung anak pertama mereka, sementara Maura menikah dengan Chris dengan 4 anak. Cinta mengumumkan bahwa ia akan pergi berlibur ke Yogyakarta dan bahwa dia bertunangan dengan pacarnya Trian. Sementara itu, di New York City, Rangga adalah co-owner sebuah kedai kopi. Saat saudara tirinya, Sukma, berkunjung untuk meminta dia untuk mengunjungi ibunya di Jogjakarta, tetapi dia menolak. Dia akhirnya berubah pikiran dan memutuskan untuk pergi ke sana setelah rekan pemilik dan temannya, Roberto meyakinkan dia bahwa dia harus pulang ke Indonesia untuk menyelesaikan sesuatu yang perlu untuk diselesaikan.". 
+
+id:B001 	
+    dk:judul 	    "Boss Baby" ;
+    dk:genre          "Family, Fantasy, Comedy";
+    dk:tahun  	     2017 ;
+    dk:rating   	    "8.7/10";
+    dk:sinopsis      "Tim, bocah 7 tahun, iri saat orangtuanya lebih perhatian pada adiknya. Ia segera sadar ternyata adik bayinya bisa berbicara. Keduanya pun bekerjasama untuk menggagalkan rencana jahat CEO Puppy Co.". 
+
+id:C001 	
+    dk:judul 	    "Cinta Brontosaurus" ;
+    dk:genre          "comedy, romance";
+    dk:tahun  	      2013 ;
+    dk:rating   	    "9/10";
+    dk:sinopsis      "Dika adalah seorang penulis yang baru saja putus cinta  dengan Nina, pacarnya setelah sekian lama. Semenjak putus cinta ini, dia percaya bahwa cinta bisa kadaluarsa. Kosasih, agen naskah Dika, mencoba untuk membuat Dika yakin terhadap cinta kembali, seperti Kosasih yakin dengan istrinya Wanda. Usaha ini membawa Dika ke dalam serangkaian perkenalan absurd. Namun , cinta bisa datang tanpa persiapan. Seperti saat Dika bertemu dengan Jessica, seorang perempuan yang jalan pikirannya sama anehnya dengan Dika. Semakin Dika kenal dengan Jessica, semakin dia bertanya: apa benar cinta bisa kadaluarsa?". 

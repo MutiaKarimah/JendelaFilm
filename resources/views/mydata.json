@@ -1,0 +1,8 @@
+{
+  "rdf" : {
+      "title" : [ 
+		{ "value" : "Anna's Homepage", 
+         "type" : "literal", 
+         "lang" : "en" } ] 
+  }
+} 
