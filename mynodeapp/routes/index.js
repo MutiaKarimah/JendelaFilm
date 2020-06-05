@@ -8,4 +8,8 @@ router.get("/", (req, res) => {
 
 router.get('/myfilm', search.getFilm);
 
+router.post('/search', (req,res) => {
+  search.searchFilm(req, res);
+});
+
 module.exports = router
