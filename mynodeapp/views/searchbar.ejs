@@ -1,0 +1,31 @@
+<div class="search-container">
+    <div class="row">
+      <div class="col-md-12 subtitle">
+        <h2> <b style="font-size: 36px;">Get to know your favorite film</b> </h2>
+      </div>
+    </div>
+    <div class="container-searchbar">
+      <div class="row">
+        <form method="POST" action="/search">
+          <div class="col-xs-1 col-sm-2 col-md-2"></div>
+          <div class="col-xs-11 col-sm-7 col-md-5 icon-search" style="margin-left:20px;">
+            <input type="text" name="search" placeholder="cari judul film atau genre">
+          </div>
+          <div class="col-xs-1 col-sm-3 col-md-4"></div>
+          <div class="col-xs-6 col-sm-3 col-md-1">
+            <div class="select-style" style="margin-left:-10px;">
+              <select name="option" style="cursor: pointer;">
+                <option value="judul">Judul</option>
+                <option value="genre">Genre</option>
+                <option value="tahun">Tahun</option>
+                <option value="rating">Rating</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-3">
+            <button type="submit"> Search </button>
+          </div>
+        </form>
+      </div>
+    </div>
+</div>

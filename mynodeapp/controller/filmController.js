@@ -17,3 +17,23 @@ exports.getFilm = async (req, res) => {
   //res.status(200).json(values);
   //console(log)values;
 }; 
+
+exports.searchFilm = async (req, res) => {
+  const searchValues = [];
+  const option = req.body.option;
+  const search = req.body.search;
+  console.log(option);
+  if (option && search) {
+    const value = await dataset.getSearch(search, option);
+    searchValues.push(...value.results.bindings);
+  } 
+
+  if (searchValues.length == 0) {
+    res.render("notFound");
+  } else {
+    return res.status(200).render("main", {
+      value: searchValues,
+      option: option,
+    });
+  }
+};

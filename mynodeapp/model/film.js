@@ -9,6 +9,7 @@ const headers = {
   "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
 };
 
+//all list film
 exports.getFilm = async () => {
   //SPARQL Query
   const querydata = {
@@ -23,6 +24,39 @@ exports.getFilm = async () => {
           ?x dk:tahun ?tahun.
           ?x dk:rating ?rating.
           ?x dk:sinopsis ?sinopsis.
+        }
+        `,
+  };
+
+  try {
+    const { data } = await axios(`${URL}/myfilm/query`, {
+      method: "POST",
+      headers,
+      data: qs.stringify(querydata),
+    });
+    return data;
+  } catch (err) {
+    console.error(err);
+    return Promise.reject(err);
+  }
+};
+
+//list search
+exports.getSearch = async (name, option) => {
+  //SPARQL Query
+  const querydata = {
+    query: `
+        prefix dk: <http://learningsparql.com/ns/deskripsi#>
+        prefix id:  <http://learningsparql.com/ns/idfilm#>
+
+        SELECT ?judul ?genre ?tahun ?rating ?sinopsis
+        WHERE {
+          ?x dk:judul ?judul.
+          ?x dk:genre ?genre.
+          ?x dk:tahun ?tahun.
+          ?x dk:rating ?rating.
+          ?x dk:sinopsis ?sinopsis.
+           FILTER regex(?${option}, "${name}")
         }
         `,
   };
