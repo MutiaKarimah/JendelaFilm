@@ -1,0 +1,168 @@
+// Buat munculin semua daftar film
+prefix dk: <http://learningsparql.com/ns/deskripsi#>
+prefix id:  <http://learningsparql.com/ns/idfilm#>
+
+SELECT ?judul ?genre ?tahun ?rating ?sinopsis
+WHERE {
+  ?x dk:judul ?judul.
+  ?x dk:genre ?genre.
+  ?x dk:tahun ?tahun.
+  ?x dk:rating ?rating.
+  ?x dk:sinopsis ?sinopsis.
+}
+
+//search by genre-comedy
+prefix dk: <http://learningsparql.com/ns/deskripsi#>
+prefix id:  <http://learningsparql.com/ns/idfilm#>
+
+SELECT ?judul ?tahun ?rating ?sinopsis
+WHERE {
+  ?x dk:judul ?judul.
+  ?x dk:genre ?genre 
+  FILTER regex (?genre, "comedy")
+  ?x dk:tahun ?tahun.
+  ?x dk:rating ?rating.
+  ?x dk:sinopsis ?sinopsis.
+}
+
+//search by genre-romance
+prefix dk: <http://learningsparql.com/ns/deskripsi#>
+prefix id:  <http://learningsparql.com/ns/idfilm#>
+
+SELECT ?judul ?tahun ?rating ?sinopsis
+WHERE {
+  ?x dk:judul ?judul.
+  ?x dk:genre ?genre 
+  FILTER regex (?genre, "romance")
+  ?x dk:tahun ?tahun.
+  ?x dk:rating ?rating.
+  ?x dk:sinopsis ?sinopsis.
+}
+
+//search by genre-sci-fi
+prefix dk: <http://learningsparql.com/ns/deskripsi#>
+prefix id:  <http://learningsparql.com/ns/idfilm#>
+
+SELECT ?judul ?tahun ?rating ?sinopsis
+WHERE {
+  ?x dk:judul ?judul.
+  ?x dk:genre ?genre 
+  FILTER regex (?genre, "sci-fi")
+  ?x dk:tahun ?tahun.
+  ?x dk:rating ?rating.
+  ?x dk:sinopsis ?sinopsis.
+}
+
+//search by genre-thriller
+prefix dk: <http://learningsparql.com/ns/deskripsi#>
+prefix id:  <http://learningsparql.com/ns/idfilm#>
+
+SELECT ?judul ?tahun ?rating ?sinopsis
+WHERE {
+  ?x dk:judul ?judul.
+  ?x dk:genre ?genre 
+  FILTER regex (?genre, "thriller")
+  ?x dk:tahun ?tahun.
+  ?x dk:rating ?rating.
+  ?x dk:sinopsis ?sinopsis.
+}
+
+//search by genre-mystery
+prefix dk: <http://learningsparql.com/ns/deskripsi#>
+prefix id:  <http://learningsparql.com/ns/idfilm#>
+
+SELECT ?judul ?tahun ?rating ?sinopsis
+WHERE {
+  ?x dk:judul ?judul.
+  ?x dk:genre ?genre 
+  FILTER regex (?genre, "mystery")
+  ?x dk:tahun ?tahun.
+  ?x dk:rating ?rating.
+  ?x dk:sinopsis ?sinopsis.
+}
+
+//search by genre-drama
+prefix dk: <http://learningsparql.com/ns/deskripsi#>
+prefix id:  <http://learningsparql.com/ns/idfilm#>
+
+SELECT ?judul ?tahun ?rating ?sinopsis
+WHERE {
+  ?x dk:judul ?judul.
+  ?x dk:genre ?genre 
+  FILTER regex (?genre, "drama")
+  ?x dk:tahun ?tahun.
+  ?x dk:rating ?rating.
+  ?x dk:sinopsis ?sinopsis.
+}
+
+//search by genre-biography
+prefix dk: <http://learningsparql.com/ns/deskripsi#>
+prefix id:  <http://learningsparql.com/ns/idfilm#>
+
+SELECT ?judul ?tahun ?rating ?sinopsis
+WHERE {
+  ?x dk:judul ?judul.
+  ?x dk:genre ?genre 
+  FILTER regex (?genre, "biography")
+  ?x dk:tahun ?tahun.
+  ?x dk:rating ?rating.
+  ?x dk:sinopsis ?sinopsis.
+}
+
+//search by genre-crime
+prefix dk: <http://learningsparql.com/ns/deskripsi#>
+prefix id:  <http://learningsparql.com/ns/idfilm#>
+
+SELECT ?judul ?tahun ?rating ?sinopsis
+WHERE {
+  ?x dk:judul ?judul.
+  ?x dk:genre ?genre 
+  FILTER regex (?genre, "crime")
+  ?x dk:tahun ?tahun.
+  ?x dk:rating ?rating.
+  ?x dk:sinopsis ?sinopsis.
+}
+
+//search by genre-fantasy
+prefix dk: <http://learningsparql.com/ns/deskripsi#>
+prefix id:  <http://learningsparql.com/ns/idfilm#>
+
+SELECT ?judul ?tahun ?rating ?sinopsis
+WHERE {
+  ?x dk:judul ?judul.
+  ?x dk:genre ?genre 
+  FILTER regex (?genre, "fantasy")
+  ?x dk:tahun ?tahun.
+  ?x dk:rating ?rating.
+  ?x dk:sinopsis ?sinopsis.
+}
+
+//search by genre-family
+prefix dk: <http://learningsparql.com/ns/deskripsi#>
+prefix id:  <http://learningsparql.com/ns/idfilm#>
+
+SELECT ?judul ?tahun ?rating ?sinopsis
+WHERE {
+  ?x dk:judul ?judul.
+  ?x dk:genre ?genre 
+  FILTER regex (?genre, "family")
+  ?x dk:tahun ?tahun.
+  ?x dk:rating ?rating.
+  ?x dk:sinopsis ?sinopsis.
+}
+
+//search by genre-adventure
+prefix dk: <http://learningsparql.com/ns/deskripsi#>
+prefix id:  <http://learningsparql.com/ns/idfilm#>
+
+SELECT ?judul ?tahun ?rating ?sinopsis
+WHERE {
+  ?x dk:judul ?judul.
+  ?x dk:genre ?genre 
+  FILTER regex (?genre, "adventure")
+  ?x dk:tahun ?tahun.
+  ?x dk:rating ?rating.
+  ?x dk:sinopsis ?sinopsis.
+}
+
+
