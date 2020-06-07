@@ -1,29 +1,29 @@
 <div class="search-container">
     <div class="row">
       <div class="col-md-12 subtitle">
-        <h2> <b style="font-size: 36px;">Get to know your favorite film</b> </h2>
+        <h2> <b style="font-size: 50px;">Get to know your favorite film</b> </h2>
       </div>
     </div>
     <div class="container-searchbar">
       <div class="row">
         <form method="POST" action="/search">
-          <div class="col-xs-1 col-sm-2 col-md-2"></div>
-          <div class="col-xs-11 col-sm-7 col-md-5 icon-search" style="margin-left:20px;">
-            <input type="text" name="search" placeholder="cari judul film atau genre">
-          </div>
-          <div class="col-xs-1 col-sm-3 col-md-4"></div>
-          <div class="col-xs-6 col-sm-3 col-md-1">
-            <div class="select-style" style="margin-left:-10px;">
-              <select name="option" style="cursor: pointer;">
-                <option value="judul">Judul</option>
-                <option value="genre">Genre</option>
-                <option value="tahun">Tahun</option>
-                <option value="rating">Rating</option>
-              </select>
+          <div class="col-md-12" style="padding:20px">
+            <div class="icon-search col-md-4" style="width:60%;">
+              <input type="text" name="search" placeholder="Cari berdasarkan Judul, Genre, Tahun" style="width:60%;background-color:white;color:black;">
             </div>
-          </div>
-          <div class="col-md-1 col-sm-3">
-            <button type="submit"> Search </button>
+            <div class="col-md-4" style="width:10%;">
+              <div class="select-style col-md-4">
+                <select name="option" style="cursor: pointer;" class="btn btn-info">
+                  <option value="judul">Judul</option>
+                  <option value="genre">Genre</option>
+                  <option value="tahun">Tahun</option>
+                  <option value="rating">Rating</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-4" style="width:5%;">
+              <button type="submit" class="btn btn-info"> Search </button>
+            </div>
           </div>
         </form>
       </div>

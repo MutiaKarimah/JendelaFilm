@@ -1,4 +1,6 @@
 const express = require('express');
+
+
 const bodyParser = require('body-parser');
 //const cors = require('cors')
 const route = require('./routes/index');
@@ -28,3 +30,4 @@ app.use(route);
 
 app.listen(port);
 console.log('API server started on: ' + port);
+app.use(express.static("./public"));
