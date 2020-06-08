@@ -56,7 +56,7 @@ exports.getSearch = async (name, option) => {
           ?x dk:tahun ?tahun.
           ?x dk:rating ?rating.
           ?x dk:sinopsis ?sinopsis.
-           FILTER regex(?${option}, "${name}")
+           FILTER regex(lcase(str(?${option})), lcase(str("${name}")))
         }
         `,
   };

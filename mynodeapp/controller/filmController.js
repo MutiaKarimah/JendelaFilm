@@ -24,6 +24,7 @@ exports.searchFilm = async (req, res) => {
   const search = req.body.search;
   console.log(option);
   if (option && search) {
+    search.toLowerCase();
     const value = await dataset.getSearch(search, option);
     searchValues.push(...value.results.bindings);
   } 
